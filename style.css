@@ -1,0 +1,98 @@
+*
+{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body
+{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg,rgba(34,193,195,1)0%,rgba(121,32,153,1) 86%);
+    background-attachment: fixed;
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    cursor: pointer;
+}
+
+.frame
+{
+    background-color: rgba(0,0,0,0.1);
+    height:400px;
+    width:400px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h3
+{
+    font-family:serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 45px;
+    color: white;
+}
+.timer
+{
+    display: flex;    
+}
+
+.hrs,.min,.sec,.ms
+{
+    width: 50px;
+    height: 50px;
+    font-size: 40px; 
+    text-align: center;
+    line-height: 50px; 
+}
+
+.colon
+{
+    width: 10px;
+    height: 50px;
+    font-size: 40px; 
+    text-align: center;
+    line-height: 46px;
+}
+
+.btns
+{
+    margin-top: 28px;
+}
+
+.btns button
+{
+    border: none;
+    padding:10px 20px;
+    color:white;
+    border-radius: 3px;
+}
+
+.start
+{
+    background-color: rgb(106, 176, 76);
+}
+
+.stop
+{
+    background-color: rgb(235, 77, 75);
+}
+
+.reset
+{
+    background-color: rgb(48, 51, 107);
+}
+
+.start-active,.stop-active
+{
+    pointer-events: none;
+    opacity: 0.5;
+}
