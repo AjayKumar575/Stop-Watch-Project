@@ -17,7 +17,6 @@ body
     justify-content: center;
     align-items: center;
     user-select: none;
-    cursor: pointer;
 }
 
 .frame
@@ -74,6 +73,7 @@ h3
     padding:10px 20px;
     color:white;
     border-radius: 3px;
+    cursor: pointer;
 }
 
 .start
